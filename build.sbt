@@ -8,6 +8,7 @@ scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
   "net.sourceforge.jtds" % "jtds" % "1.3.1",
+  "com.google.code.gson" % "gson" % "2.3.1",
   javaJdbc,
   cache,
   javaWs
