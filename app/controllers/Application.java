@@ -2,16 +2,15 @@ package controllers;
 
 
 
+import com.valentys.sdk.data.DataService;
+import com.valentys.sdk.data.EntityRepository;
+import com.valentys.sdk.data.EntityTable;
+import com.valentys.sdk.data.collections.DataParameterCollection;
 import models.MarcaDBO;
-import play.*;
 import play.libs.Json;
 import play.mvc.*;
-import sdk.data.DataService;
-import sdk.data.EntityRepository;
-import sdk.data.EntityTable;
-import sdk.data.collections.DataParameterCollection;
 
-import static sdk.adapter.Adapter.ExecuteQuery;
+import static com.valentys.sdk.adapter.Adapter.ExecuteQuery;
 
 public class Application extends Controller {
 
