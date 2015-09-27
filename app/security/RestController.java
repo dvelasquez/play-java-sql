@@ -1,6 +1,6 @@
 package security;
 
-import com.valentys.sdk.adapter.Adapter;
+import com.nazca.sdk.adapter.Adapter;
 import play.mvc.Http;
 import play.mvc.With;
 import security.models.UserDTO;

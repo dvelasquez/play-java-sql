@@ -1,7 +1,8 @@
 package security.models;
 
 import com.google.gson.annotations.SerializedName;
-import com.valentys.sdk.data.EntityTable;
+import com.nazca.sdk.data.EntityTable;
+
 
 /**
  * Created by Danilo Velasquez on 23-06-2015.

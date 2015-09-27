@@ -4,16 +4,16 @@ package controllers;
  * Created by Danilo Velasquez on 23-06-2015.
  */
 
-import com.valentys.sdk.data.DataService;
-import com.valentys.sdk.data.EntityRepository;
-import com.valentys.sdk.data.EntityTable;
-import com.valentys.sdk.data.collections.DataParameterCollection;
+import com.nazca.sdk.data.DataService;
+import com.nazca.sdk.data.EntityRepository;
+import com.nazca.sdk.data.EntityTable;
+import com.nazca.sdk.data.collections.DataParameterCollection;
 import models.MarcaDBO;
 import play.libs.Json;
 import play.mvc.*;
 import security.RestSecurity;
 
-import static com.valentys.sdk.adapter.Adapter.ExecuteQuery;
+import static com.nazca.sdk.adapter.Adapter.ExecuteQuery;
 
 public class Application extends Controller {
 
